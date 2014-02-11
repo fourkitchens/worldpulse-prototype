@@ -31,3 +31,7 @@ nav {
 .container {
   max-width: 750px;
 }
+
+main {
+  margin-bottom: 40px;
+}
