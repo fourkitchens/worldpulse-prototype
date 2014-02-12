@@ -1,3 +1,3 @@
 # World Pulse prototype
 
-Prototype built with Bootstrap to explore navigation options.
+Prototype built with Jekyll and Bootstrap to explore the new approach to landing pages and navigation.
