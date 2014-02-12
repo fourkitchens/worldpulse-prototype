@@ -1,0 +1,7 @@
+name: World Pulse
+permalink: pretty
+debug: false
+
+markdown: redcarpet
+pygments: true
+exclude: [CONTRIBUTING.md, README.md, config.rb, package.json, Gruntfile.js, node_modules, "vendor"]
