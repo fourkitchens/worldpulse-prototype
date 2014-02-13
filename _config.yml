@@ -4,4 +4,4 @@ debug: false
 
 markdown: redcarpet
 pygments: true
-exclude: [CONTRIBUTING.md, README.md, config.rb, package.json, Gruntfile.js, node_modules, "vendor"]
+exclude: [CNAME, CONTRIBUTING.md, README.md, config.rb, package.json, Gruntfile.js, node_modules, "vendor"]
