@@ -6,4 +6,3 @@ Prototype built with Jekyll and Bootstrap to explore the new approach to landing
 
 * Voice http://wp.fourkitchens.com/voice/
 * Groups http://wp.fourkitchens.com/groups/
-* 
