@@ -5,4 +5,4 @@ Prototype built with Jekyll and Bootstrap to explore the new approach to landing
 ## Pages
 
 * Issues http://wp.fourkitchens.com/issues/
-* Groups http://wp.fourkitchens.com/groups/
+* Groups http://wp.fourkitchens.com/connect/groups/
