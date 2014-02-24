@@ -6,11 +6,9 @@
 
 /* Toolbar: Links and Search */
 
-@media (min-width: 768px) {
-  #toolbar {
-    padding-top: 20px;
+#toolbar {
+    padding-top: 30px;
   }
-}
 
 .toolbar-links {
   text-align: right;
@@ -33,18 +31,12 @@ nav {
   border-color: transparent;
 }
 
-.navbar-brand {
-  height: 87px;
-}
-
 .navbar-collapse.in {
   border-bottom: 1px solid #e7e7e7;
 }
 
-@media (min-width: 768px) {
-  .navbar-nav {
-    padding-top: 20px;
-  }
+.navbar-brand {
+  height: 87px;
 }
 
 .navbar .navbar-form {

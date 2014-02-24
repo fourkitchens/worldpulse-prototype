@@ -33,7 +33,11 @@
     <div id="wrap">
 
     <div id="toolbar" class="container hidden-xs">
-  <div class="toolbar-links col-sm-3 col-sm-offset-6">
+  <div class="branding col-sm-6">
+    <a href="/"><img src="/img/logo.png" alt="World Pulse logo"></a>
+  </div>
+
+  <div class="toolbar-links col-sm-3">
     <a href="/sign-in/">Sign in</a>
   </div>
   <div id="search" class="input-group input-group-sm col-sm-3">
@@ -46,73 +50,89 @@
   </div>
 </div>
 
+<!-- Navigation -->
+
 <nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#wp-navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand visible-xs" href="/"><img src="/img/logo.png" alt="World Pulse logo"></a>
+  </div>
 
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#wp-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="World Pulse logo"></a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="wp-navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Issues <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="/issues/">Issues</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Connect <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="/connect/members/">Members</a></li>
-              <li><a href="/connect/groups/">Groups</a></li>
-              <li><a href="/connect/resources/">Resources</a></li>
-              <li><a href="/connect/events/">Events</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="/get-involved/join/">Join/Post</a></li>
-              <li><a href="/get-involved/volunteer/">Volunteer</a></li>
-              <li><a href="/get-involved/participate/">Participate</a></li>
-              <li><a href="/get-involved/donate/">Donate</a></li>
-              <li><a href="/get-involved/updates/">Receive updates</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Impact <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="/impact/mission">Mission</a></li>
-              <li><a href="/impact/programs">Our programs</a></li>
-              <li><a href="/impact/media">Voices in the media</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Pulse <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="/register/">Register</a></li>
-              <li><a href="/sign-in/">Sign in</a></li>
-            </ul>
-          </li>
+  <div class="collapse navbar-collapse" id="wp-navbar-collapse">
+    <!-- Navigation for tablet and desktop -->
+    <ul class="nav navbar-nav hidden-xs">
+      <li>
+        <a href="/issues/">Global Issues</a>
+      </li>
+      <li class="dropdown">
+        <a href="/community/" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Community <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="/community/members/">Members</a></li>
+          <li><a href="/community/groups/">Groups</a></li>
+          <li><a href="/community/resources/">Resources</a></li>
+          <li><a href="/community/events/">Events</a></li>
         </ul>
-      
-        <form class="navbar-form visible-xs">
-          <input type="text" class="form-control" placeholder="Search">
-          <button type="submit" class="btn btn-default">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </form>
-      
-      </div><!-- /.navbar-collapse -->
-    </nav>
+      </li>
+      <li class="dropdown">
+        <a href="/get-involved/" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Get Involved <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="/get-involved/join/">Join/Post</a></li>
+          <li><a href="/get-involved/volunteer/">Volunteer</a></li>
+          <li><a href="/get-involved/participate/">Participate</a></li>
+          <li><a href="/get-involved/donate/">Donate</a></li>
+          <li><a href="/get-involved/updates/">Receive updates</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="/impact/" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Our Impact <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="/impact/mission">Mission</a></li>
+          <li><a href="/impact/programs">Our programs</a></li>
+          <li><a href="/impact/media">Voices in the media</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="/register/" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">My Pulse <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="/sign-in/">Sign in</a></li>
+        </ul>
+      </li>
+    </ul>
+    
+    <!-- Navigation for mobile -->
+    <ul class="nav navbar-nav visible-xs">
+      <li>
+        <a href="/issues/">Global Issues</a>
+      </li>
+      <li>
+        <a href="/community/">Community</a>
+      </li>
+      <li>
+        <a href="/get-involved/">Get Involved</a>
+      </li>
+      <li>
+        <a href="/impact/">Our Impact</a>
+      </li>
+      <li>
+        <a href="/register/">My Pulse</a>
+      </li>
+    </ul>
+  
+    <form class="navbar-form visible-xs">
+      <input type="text" class="form-control" placeholder="Search">
+      <button type="submit" class="btn btn-default">
+        <span class="glyphicon glyphicon-search"></span>
+      </button>
+    </form>
+  
+  </div><!-- /.navbar-collapse -->
+</nav>
 
 
     <!-- START CONTENT -->
@@ -161,20 +181,15 @@
             <li><a href="#">WP Calendar</a></li>
             <li><a href="#">Partners/Sponsors</a></li>
             <li><a href="#">Partner with Us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <p class="hidden-xs">&nbsp;</p>
+          <ul>
             <li><a href="#">Press Kit</a></li>
             <li><a href="#">Advertise</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">WP Jobs/Volunteer in PDX</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <p><strong>More links</strong></p>
-          <ul>
-            <li><a href="#">Link to somewhere</a></li>
-            <li><a href="#">Link to somewhere</a></li>
-            <li><a href="#">Link to somewhere</a></li>
-            <li><a href="#">Link to somewhere</a></li>
-            <li><a href="#">Link to somewhere</a></li>
           </ul>
         </div>
         <div class="col-sm-4">
@@ -190,7 +205,8 @@
     
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/bootstrap-hover-dropdown.min.js"></script>
 
   </body>
 </html>
