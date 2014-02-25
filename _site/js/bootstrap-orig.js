@@ -678,7 +678,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap requires jQuery'
       $this.focus()
     }
 
-    return true
+    return false
   }
 
   Dropdown.prototype.keydown = function (e) {
