@@ -1,7 +1,7 @@
 /* Custom CSS */
 
 .container {
-  max-width: 750px;
+  max-width: 800px;
 }
 
 /* Toolbar: Links and Search */
@@ -18,7 +18,7 @@
 /* Navigation */
 
 nav {
-  max-width: 750px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
