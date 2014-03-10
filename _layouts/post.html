@@ -1,8 +1,22 @@
 ---
 layout: default
 ---
+
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    Global Issues navigation <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Global Issues</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Topics</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Regions</a></li>
+  </ul>
+</div>
+
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date: "%B %d, %Y" }}</p>
 
 <div class="post">
 {{ content }}
