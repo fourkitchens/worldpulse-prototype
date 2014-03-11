@@ -9,7 +9,7 @@ title: "ZAMBIA: A Deep Scar in My Heart"
 
 <p class="lead">As a young child, 21-year-old Bwela Nchimunya Moombe lost her sister to HIV/AIDS. Today, she is an outspoken advocate for the rights of women in her community.</p>
 
-"I call on the men in our community to step up and wage this battle against AIDS with us."
+> "I call on the men in our community to step up and wage this battle against AIDS with us."
 
 They say people come and go in our lives, but when she left us, it left a deep scar in my heart. Your memory will live on forever, my dearest sister. Rest in peace.
 
