@@ -1,8 +1,60 @@
 ---
 layout: default
 ---
+
+<div class="row">
+  <div class="col-xs-12 visible-xs">
+    
+    <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#issues-submenu">
+      <span class="glyphicon glyphicon-th-list"></span> Global Issues menu <span class="caret"></span>
+    </button>
+    
+    <ul id="issues-submenu" class="list-group collapse">
+      <li class="list-group-item"><a href="/issues/">Global Issues home</a></li>
+      <li class="list-group-item">
+        <a a data-toggle="collapse" data-target="#topics-submenu">Topics</a> <span class="caret"></span>
+        <ul id="topics-submenu" class="collapse">
+          <li><a href="#">Education and Training</a></li>
+          <li><a href="#">Empowerment and Leadership</a></li>
+          <li><a href="#">Environment</a></li>
+          <li><a href="#">Gender-based Violence</a></li>
+          <li><a href="#">Girls</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Human Rights and Law</a></li>
+          <li><a href="#">Politics and Security</a></li>
+          <li><a href="#">Media and Technology</a></li>
+          <li><a href="#">Men and Boys</a></li>
+        </ul>
+      </li>
+      <li class="list-group-item">
+        <a data-toggle="collapse" data-target="#regions-submenu">Regions</a> <span class="caret"></span>
+        <ul id="regions-submenu" class="collapse">
+          <li><a href="#">Africa</a></li>
+          <li><a href="#">Asia Pacific</a></li>
+          <li><a href="#">Europe</a></li>
+          <li><a href="#">Latin America &amp; the Caribbean</a></li>
+          <li><a href="#">Middle East and North Africa</a></li>
+          <li><a href="#">North America</a></li>
+          <li><a href="#">South and Central Asia</a></li>
+        </ul>
+      </li>
+    </ul>
+  
+  </div>
+</div><!-- /row -->
+
+
+<div class="row">
+  <div class="hidden-xs">
+    <ol class="breadcrumb">
+      <li><a href="/">Home</a></li>
+      <li><a href="/issues/">Global Issues</a></li>
+    </ol>
+  </div>
+</div>
+
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date: "%B %d, %Y" }}</p>
 
 <div class="post">
 {{ content }}
